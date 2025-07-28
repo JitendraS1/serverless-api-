@@ -1,0 +1,25 @@
+{
+  "name": "nestoria-voucher-api",
+  "version": "1.0.0",
+  "description": "Nestoria payment voucher API using Node.js and MongoDB Atlas deployed on Vercel",
+  "main": "api/voucher.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/voucher.js"
+  },
+  "keywords": [
+    "node",
+    "vercel",
+    "api",
+    "mongodb",
+    "serverless"
+  ],
+  "author": "Jitendra Singh",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^7.6.1"
+  },
+  "devDependencies": {
+    "vercel": "^30.0.0"
+  }
+}

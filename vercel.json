@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/voucher.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/nestoria-payment-voucher/voucherData",
+      "dest": "api/voucher.js"
+    }
+  ]
+}
