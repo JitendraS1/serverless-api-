@@ -7,7 +7,7 @@ const connectDB = async () => {
   if (isConnected) return;
 
   try {
-    await mongoose.connect(process.env.MONGO_URI, {
+    await mongoose.connect(process.env.MONGODB_URI, {
       dbName: 'voucherDB',
       useNewUrlParser: true,
       useUnifiedTopology: true,
